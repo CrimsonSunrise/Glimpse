@@ -73,3 +73,6 @@ Main method of storing data and information.
 <a name="how-it-works"></a>
 ## Como funciona?
 
+![Glimpse workflow](https://raw.githubusercontent.com/CrimsonSunrise/Glimpse/master/Assets/glimpse-workflow.png?token=GHSAT0AAAAAABSCQ4VUZIDLACZJXZHOKKV4YUJMQFQ)
+
+Todos os comandos e informações gerenciadas nos apps são enviados pela API
