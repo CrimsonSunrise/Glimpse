@@ -95,7 +95,7 @@ Upon receiving some instruction, the operational scripts compare the data collec
 
 The operational script collects the results of operations and stores them in the database, thus providing information to display in web and mobile applications.
 
-![Glimpse workflow](https://i.imgur.com/MXS3N7x.png)
+![Glimpse workflow](https://i.imgur.com/ZrAa5ML.png)
 
 
 <a name="requirements"></a>
