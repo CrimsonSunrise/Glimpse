@@ -23,8 +23,8 @@ Table of content:
     * [Setting up](#setup)
         * [Database setup](#database-setup)
         * [API setup](#api-setup)
-        * [Operational Server setup](#operational-server-setup)
         * [Auxiliar Scripts setup](#auxiliar-scripts-setup)
+        * [Operational Server setup](#operational-server-setup)
         * [Web and mobile App setup](#app-setup)
         * [Manager App setup](#manager-setup)
         
@@ -138,7 +138,7 @@ In order to run the **Glimpse** bundle you need to download and install the foll
     * Servers
     * Signals
     * Strategies
-5. After creating all the needed collections you will need to import the base data into every collection. For this step, select a collection, click on the green button **ADD DATA**, click on **Import Fle**, **Select a file...** and navigate to the folder **Collections** inside the project, select the corresponding file name for the collection you've selected and then click **Open**. After click on the green button **IMPORT**.
+5. After creating all the needed collections you will need to import the base data into every collection. For this step, select a collection, click on the green button **ADD DATA**, click on **Import File**, **Select a file...** and navigate to the folder **Collections** inside the project, select the corresponding file name for the collection you've selected and then click **Open**. After click on the green button **IMPORT**.
 6. Do the same thing for all the collections. Be cautious to not import twice.
 7. After importing all the collection files we're done with the database and you can proceed to the next step.
 
@@ -157,6 +157,19 @@ With Python installed, now we need to install some modules. Open your command pr
 
 After installing all the packages above, open your MongoDB Compass and inside your **Auxiliar** collection, edit the ```value``` field of the document with your computer's IP Address where ```name``` is equal to ```apiAddress```. This will allow you apps and scripts to connect to your API.
 
-Insite the folder ```API``` is located the ```routes.py``` and ```actions.py```, the main scripts for our API.
+Now edit the document where ```name``` is equal to ```analysisAccount```. Set the value to a working IQ Option account with a slash ```/``` between email and password. ie.: ```email/password```. This account will be used to connect to the broker's API and collect data. You can use a non verified account.
+
+Inside the folder ```API``` is located the ```routes.py``` and ```actions.py```, the main scripts for our API.
 
 Run the file ```routes.py``` and our API should now be working.
+
+<a name="auxiliar-scripts-setup"></a>
+### Auxiliar Scripts setup
+
+Before we run the operational server scripts, we need to run the auxiliar scripts. They will provide important data to our algorithms analyze.
+
+The auxiliar scripts are composed for the following scripts:
+    
+* ```lister.py``` Script used to list opened currency pairs and its payouts.
+* ```serverAssigner.py``` Script that assign a waiting user to a waiting operational server.
+* ```candlesStarter.py``` Script that will start the candles stream for all the currency pairs located at ```/auxiliar/candles/```.
