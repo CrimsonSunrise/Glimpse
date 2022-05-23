@@ -6,7 +6,7 @@
 
 > Currently IQ Option is the only broker implemented.
 
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png)](https://www.buymeacoffee.com/crimsonsunrise)
+<a href="https://www.buymeacoffee.com/crimsonsunrise" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png"/></a>
 
 Table of content:
 
@@ -58,20 +58,18 @@ Scripts that perform checks and data acquisition regarding assets and/or currenc
 <a name="app"></a>
 ## Web and mobile App
 
+![](https://img.shields.io/badge/Ionic-informational?style=flat-square&logo=Ionic&logoColor=white&color=367CF7)
 ![](https://img.shields.io/badge/React-informational?style=flat-square&logo=React&logoColor=white&color=5ED3F3)
 ![](https://img.shields.io/badge/Typescript-informational?style=flat-square&logo=Typescript&logoColor=white&color=2F74C0)
-![](https://img.shields.io/badge/Html-informational?style=flat-square&logo=HTML5&logoColor=white&color=DD4B25)
-![](https://img.shields.io/badge/Css-informational?style=flat-square&logo=CSS3&logoColor=white&color=026EB4)
 
 Web/Android application where the user can configure, command and analyze remote operations.
 
 <a name="manager"></a>
 ## Manager App
 
+![](https://img.shields.io/badge/Ionic-informational?style=flat-square&logo=Ionic&logoColor=white&color=367CF7)
 ![](https://img.shields.io/badge/React-informational?style=flat-square&logo=React&logoColor=white&color=5ED3F3)
 ![](https://img.shields.io/badge/Typescript-informational?style=flat-square&logo=Typescript&logoColor=white&color=2F74C0)
-![](https://img.shields.io/badge/Html-informational?style=flat-square&logo=HTML5&logoColor=white&color=DD4B25)
-![](https://img.shields.io/badge/Css-informational?style=flat-square&logo=CSS3&logoColor=white&color=026EB4)
 
 Web application to manage users, operations and extra settings.
 
@@ -173,3 +171,9 @@ The auxiliar scripts are composed for the following scripts:
 * ```lister.py``` Script used to list opened currency pairs and its payouts.
 * ```serverAssigner.py``` Script that assign a waiting user to a waiting operational server.
 * ```candlesStarter.py``` Script that will start the candles stream for all the currency pairs located at ```/auxiliar/candles/```.
+
+The ```lister.py``` script will connect to the broker's api and save on the database informations about currently opened currency pairs and its payouts. To work properly, you need to set the ```analysisAccount``` on the ```Auxiliar``` collection. Inside this script you can set the interval of its functions.
+
+The ```serverAssigner.py``` script its responsible for await operating commands from users watching its values from the database and assigning the commands to the not in use operational server. You can set its intervals inside the script.
+
+The ```candleStarter.py``` script iterate inside the folder ```/auxiliar/candles``` and start all the scripts. Each script inside the candles folder start a candle stream of a currency pair and save the data gathered into the database.

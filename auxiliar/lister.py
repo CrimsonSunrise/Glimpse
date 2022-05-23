@@ -16,9 +16,9 @@ days = ["segunda", "terca", "quarta", "quinta", "sexta", "sabado", "domingo"]
 diferenca = timedelta(hours=-3)
 fuso_horario = timezone(diferenca)
 
-analysisAcount = db.Auxiliar.find({ "name": "analysisAccount" })
-analysisEmail = analysisAcount.split("/")[0]
-analysisPassword = analysisAcount.split("/")[1]
+analysisAccount = db.Auxiliar.find_one({ "name": "analysisAccount" })["value"]
+analysisEmail = analysisAccount.split("/")[0]
+analysisPassword = analysisAccount.split("/")[1]
 
 Iq = IQ_Option(analysisEmail, analysisPassword)
 Iq.connect()
