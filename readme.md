@@ -177,3 +177,14 @@ The ```lister.py``` script will connect to the broker's api and save on the data
 The ```serverAssigner.py``` script its responsible for await operating commands from users watching its values from the database and assigning the commands to the not in use operational server. You can set its intervals inside the script.
 
 The ```candleStarter.py``` script iterate inside the folder ```/auxiliar/candles``` and start all the scripts. Each script inside the candles folder start a candle stream of a currency pair and save the data gathered into the database.
+
+<a name="operational-server-setup"></a>
+### Operational Server setup
+
+The operational server is composed of two scripts, the main one ```server.py``` and the auxiliar ```sequenceFinder.py```.
+
+The ```server.py``` script is the main cause it awaits for the user commands, analyze the data coming from the database and place orders in the broker's api.
+
+The ```server.py``` also is responsible for place signal orders.
+
+The ```sequenceFinder.py```, as its name suggests, is a script capable of compare the candles provided by the auxiliar scripts and send back an information to the ```server.py``` script to proceed with the orders.
