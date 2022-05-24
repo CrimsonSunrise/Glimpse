@@ -1,0 +1,146 @@
+body {
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.App {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.loader {
+    position: relative;
+    margin: auto;
+}
+
+.shadowComponent {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.shadowButton {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pageContent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE;
+}
+
+.glimpseInput {
+    --placeholder-color: red;
+}
+
+.glimpseItem {
+    --border-radius: 6px;
+    margin: 2px 0
+}
+
+.glimpseItem ion-label {
+    color: #666 !important
+}
+
+.menuButton {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+}
+
+.menuButton.shadowComponent {
+    background-color: var(--glimpseIndigo);
+}
+
+.menu {
+    transition: 0.2s all;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: var(--glimpseIndigo);
+    padding: 10px 0 100px 0;
+    bottom: -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5)
+}
+
+.menu.active {
+    bottom: 0%;
+}
+
+.menu-item {
+    position: relative;
+    width: 94%;
+    padding: 20px;
+    font-size: 18px;
+    color: #EEE;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-item.active {
+    background-color: white;
+    color: var(--glimpseIndigo);
+}
+
+.menu.active .menu-item:nth-of-type(1) {
+    animation: menuItemBottom 0.2s;
+}
+
+.menu.active .menu-item:nth-of-type(2) {
+    animation: menuItemBottom 0.3s;
+}
+
+.menu.active .menu-item:nth-of-type(3) {
+    animation: menuItemBottom 0.4s;
+}
+
+.menu.active .menu-item:nth-of-type(4) {
+    animation: menuItemBottom 0.5s;
+}
+
+@keyframes menuItemBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px)
+    }
+}
+
+.backMask {
+    transition: 0.2s all;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    pointer-events: none;
+}
+
+.backMask.active {
+    pointer-events: all;
+    background-color: rgba(0, 0, 0, 0.15);
+}

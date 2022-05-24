@@ -1,0 +1,222 @@
+.settings {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-bottom: 70px;
+}
+
+.settings h5 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.settings .md {
+    --background: #EEE;
+}
+
+.settings .item {
+    --background: #EEE;
+}
+
+.settings .settings-button-label {
+    --color: #444;
+}
+
+.settings-header {
+    position: relative;
+}
+
+.settings-back {
+    transition: 0.2s all;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    height: 25px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+    pointer-events: all;
+    color: #666;
+}
+
+.settings-back.hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.settings-panel {
+    transition: 0.2s all;
+    position: absolute;
+    background-color: #EEE;
+    width: 100%;
+    height: 80%;
+    top: 65px;
+    left: 120%;
+    pointer-events: none;
+    opacity: 0;
+    overflow-y: auto;
+}
+
+.settings-panel.active {
+    left: 0%;
+    pointer-events: all;
+    opacity: 1;
+}
+
+.settings-note {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.settings-change-password {
+    --background: white !important;
+    color: var(--glimpseIndigo);
+}
+
+.settings-notify-when {
+    --color: #444 !important;
+    padding-top: 10px;
+    font-size: 14px !important;
+}
+
+.settings-toggle-alerts {
+    --background: #DDD !important;
+}
+
+.settings-panel h5 {
+    color: #666;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.settings-panel .spacer {
+    height: 30px;
+}
+
+.alterar-senha-info.alerta {
+    color: rgb(211, 127, 0);
+}
+
+.alterar-senha-info.danger {
+    color: red;
+}
+
+.alterar-senha-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alterar-senha-button {
+    font-size: 12px;
+}
+
+.alterar-senha-first {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    pointer-events: none;
+}
+
+.alterar-senha-first.active {
+    height: auto;
+    pointer-events: all;
+}
+
+.alterar-senha-second {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.alterar-senha-second.active {
+    height: auto;
+    pointer-events: all;
+}
+
+.alterar-senha-third {
+    position: relative;
+    overflow: hidden;
+    height: 0;
+    pointer-events: none;
+}
+
+.alterar-senha-third.active {
+    height: auto;
+    pointer-events: all;
+}
+
+.alterar-senha-second p {
+    line-height: 25px;
+}
+
+.alterar-senha-email-ref {
+    background-color: white;
+    color: var(--glimpseIndigo);
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.confirmation-code-input {
+    text-align: center;
+    width: 150px;
+}
+
+.confirmation-code-continue {
+    font-size: 16px;
+    background-color: var(--glimpseIndigo);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.103);
+}
+
+.settings-terms {
+    background-color: white;
+    padding: 20px;
+    text-align: justify;
+    overflow-y: auto;
+}
+
+.settings-terms p {
+    text-indent: 20px;
+    font-size: 14px;
+}
+
+.operation-priority-info {
+    color: #AAA;
+    position: relative;
+    float: right;
+    font-size: 22px;
+    margin-right: 15px;
+}
+
+.my-custom-class .popover-viewport {
+    display: flex;
+    flex-direction: column;
+}
+
+.my-custom-class h5 {
+    font-size: 14px;
+}
+
+.my-custom-class p {
+    text-align: justify;
+    font-size: 12px;
+    text-indent: 20px;
+}

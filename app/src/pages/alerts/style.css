@@ -1,0 +1,91 @@
+.alerts {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.alerts-header {
+    position: relative;
+}
+
+.alerts-content {
+    position: relative;
+    flex: 1;
+    max-height: 700px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 5px;
+    z-index: 1;
+    background-color: #EEEEEE;
+}
+
+.alert {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    border-left: 3px solid transparent;
+    flex-shrink: 0;
+}
+
+.alert * {
+    pointer-events: none;
+}
+
+.alert.unread {
+    border-color: var(--glimpseCrimson);
+}
+
+.alert-header {
+    position: relative;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alert-title {
+    position: relative;
+    font-size: 16px;
+    max-width: 55%;
+    height: 19px;
+    white-space: nowrap;                  
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--glimpseIndigo);
+}
+
+/* .alert.info .alert-title{
+    color: var(--glimpseIndigo)
+}
+
+.alert.danger .alert-title{
+    color: var(--glimpseCrimson)
+} */
+
+.alert-time {
+    color: #888;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.alert-content {
+    position: relative;
+    padding: 0%;
+    color: #666;
+    font-size: 14px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.alert.active .alert-content {
+    padding: 5px;
+    height: 100%;
+}

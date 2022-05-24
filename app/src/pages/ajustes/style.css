@@ -1,0 +1,25 @@
+.ajustes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.ajustes-content {
+    position: relative;
+    flex: 1;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    z-index: 1;
+    background-color: #EEEEEE;
+    overflow: visible;
+    margin-top: 10px;
+    flex-shrink: 0;
+}
+
+.ajustes-content * {
+    flex-shrink: 0;
+}

@@ -1,0 +1,151 @@
+.operacoes {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.operacoes h5 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #444;
+}
+
+.operacoes-header {
+    position: relative;
+}
+
+.operacoes-content {
+    position: relative;
+    flex: 1;
+    max-height: 700px;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 5px;
+    z-index: 1;
+    background-color: #EEEEEE;
+}
+
+.operacao {
+    transition: 0.2s all;
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.operacao * {
+    pointer-events: none;
+}
+
+.operacao-header {
+    pointer-events: all;
+    display: flex;
+    justify-content: space-between;
+}
+
+.operacao-ativo {
+    width: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #444;
+}
+
+.operacao-horario {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 12px;
+    color: #888;
+}
+
+.operacao-profit {
+    width: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    color: green;
+}
+
+.operacao-profit.negative {
+    color: var(--glimpseCrimson)
+}
+
+.operacao-profit::before {
+    content: "+ ";
+    margin-right: 3px;
+}
+
+.operacao-profit.negative::before {
+    content: "";
+    margin-right: 3px;
+}
+
+.operacao-detalhes {
+    transition: 0.2s all;
+    height: 0px;
+    overflow: hidden;
+    background-color: var(--glimpseIndigo);
+    background-image: linear-gradient(340deg, #7D42FE 0%, #614eff 100%);
+    pointer-events: all;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.operation-chart {
+    position: relative;
+    padding: 20px;
+    background-color: rgba(255, 166, 0, 0.0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5px;
+    align-self: center;
+}
+
+.chart {
+    flex-shrink: 0;
+}
+
+.chart-details {
+    position: relative;
+    display: flex;
+    width: 75%;
+    bottom: 0px;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.637);
+    justify-content: space-between;
+    margin: auto;
+    left: 0;
+    right: 0;
+    flex-shrink: 0;
+}
+
+.chart-details span {
+    color: white;
+    text-transform: capitalize;
+}
+
+.operacao.active .operacao-detalhes {
+    height: 200px;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.spinner {
+    position: relative;
+    margin: auto;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+}

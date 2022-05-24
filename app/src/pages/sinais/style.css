@@ -1,0 +1,359 @@
+.sinais {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: visible;
+}
+
+.sinais-content {
+    position: relative;
+    flex: 1;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-bottom: 5px;
+    z-index: 1;
+    background-color: #EEEEEE;
+    overflow: visible;
+}
+
+.sinais-controls {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.signals-settings {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 1;
+    top: 50px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.signals-settings.active {
+    opacity: 1;
+    pointer-events: all;
+    animation: fadeSignalsSettings 0.2s;
+}
+
+@keyframes fadeSignalsSettings {
+    0% {
+        opacity: 0;
+        transform: scale(0.9)
+    }
+}
+
+.signals-settings-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding: 8px 10px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+    color: #444;
+}
+
+.ionitem-active {
+    display: none;
+}
+
+.ionitem-active.active {
+    display: block;
+}
+
+.signals-settings-content {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signals-settings-label {
+    color: #888 !important;
+}
+
+.signals-settings-number-input{
+    text-align: right;
+}
+
+.settings-save {
+    position: relative;
+    align-self: flex-end;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--glimpseIndigo);
+    margin-top: 5px;
+}
+
+.sinal-control {
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.sinal-control.options {
+    background-color: var(--glimpseIndigo);
+    color: white;
+}
+
+.sinais-list {
+    transition: 0.2s all;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    overflow-y: auto;
+    padding: 5px;
+    padding-right: 10px;
+}
+
+.sinais-list.contracted {
+    height: 0;
+    padding: 0;
+}
+
+.sinal {
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+    color: #666;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.sinal.outdated {
+    opacity: 0.4;
+}
+
+.sinal.result {
+    color: #888;
+}
+
+.sinal.canceled {
+    color: #AAA;
+    text-decoration: line-through;
+}
+
+.sinal * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sinal-time {
+    width: 60px;
+}
+
+.sinal-active {
+    width: 120px;
+    text-transform: uppercase;
+}
+
+.sinal-operation {
+    width: 40px;
+    text-transform: capitalize;
+}
+
+.sinal-result {
+    width: 40px;
+    color: #AAA;
+}
+
+.sinal-result.win {
+    color: rgb(20, 187, 20);
+}
+
+.sinal-result.loss {
+    color: rgb(247, 82, 31);
+}
+
+.sinal-result.doji {
+    color: rgb(119, 119, 119);
+}
+
+.sinal-cancel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+}
+
+.sinal.outdated .sinal-cancel, .sinal.result .sinal-cancel {
+    right: -100%;
+}
+
+.sinal .reactivate {
+    display: none;
+}
+
+.sinal.canceled .cancel {
+    display: none;
+}
+
+.sinal.canceled .reactivate {
+    display: flex;
+}
+
+.sinal-cancel * {
+    pointer-events: none;
+}
+
+.add-list {
+    position: absolute;
+    z-index: 1;
+    background-color: #EEE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.add-list.active {
+    opacity: 1;
+    pointer-events: all;
+    animation: openAddLista 0.2s;
+}
+
+@keyframes openAddLista {
+    0% {
+        opacity: 0;
+        transform: scale(0.8)
+    }
+}
+
+.add-controls {
+    position: relative;
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.add-controls div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: #AAA;
+    gap: 5px;
+}
+
+.add-controls div span {
+    color: #444
+}
+
+.add-control-clear {
+    position: relative;
+}
+
+.add-sinais-list {
+    position: relative;
+    width: 100%;
+    min-height: 55vh;
+    max-height: 55vh;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    padding: 10px;
+    color: #444;
+    resize: none;
+    flex: 1;
+    outline-color: var(--glimpseIndigo);
+}
+
+.add-sinais-list::selection {
+    background-color: var(--glimpseIndigo);
+    color: white
+}
+
+.add-buttons {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    gap: 10px;
+    height: 50px;
+}
+
+.add-buttons div {
+    position: relative;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: flex-end;
+}
+
+.add-cancel {
+    background-color: white;
+    color: #444;
+}
+
+.add-check {
+    transition: 0.2s all;
+    background-color: var(--glimpseIndigo);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+}
+
+.add-check * {
+    font-size: 8px;
+}
+
+.emptyList {
+    color: #888;
+}
+
+/* .addConfirm {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+} */
+  
+  /* Works - pass "my-custom-class" in cssClass to increase specificity */
+.addConfirm .alert-wrapper {
+    position: absolute;
+    z-index: 1;
+    height: 220px;
+    pointer-events: all;
+    margin: auto;
+    inset: 0;
+}
+
+.addConfirm .alert-wrapper .alert-title{
+    height: 26px;
+}
+
+.addConfirm .alert-wrapper .alert-message {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.sc-ion-alert-md {
+    z-index: 1;
+}

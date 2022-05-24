@@ -1,0 +1,56 @@
+.payoutSet {
+	position: relative;
+	padding: 5px;
+	background-color: #DFDFDF;
+	border-radius: 6px;
+	display: flex;
+	justify-content: space-around;
+	gap: 7px;
+	margin-top: 10px;
+}
+
+#payoutSelector {
+	transition: 0.2s all;
+	position: absolute;
+	width: 146px;
+	height: 48px;
+	background-color: white;
+	border-radius: 3px;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+#payoutSelector.left {
+	left: 6px;
+}
+
+#payoutSelector.right {
+	left: 51.5%;
+}
+
+.setPayout {
+	position: relative;
+	width: 146px;
+	height: 48px;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #4D4D4D;
+	background-color: rgba(255, 0, 0, 0);
+}
+
+.payoutLabel {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 20px 0;
+    color: #4D4D4D;
+    font-size: 101px;
+}
+
+.payoutLabel span {
+    font-size: 26px;
+    line-height: 66px;
+}

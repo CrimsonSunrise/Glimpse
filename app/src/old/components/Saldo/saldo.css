@@ -1,0 +1,31 @@
+.saldo {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+
+.currency {
+    font-size: 17px;
+    color: #4D4D4D;
+    padding-right: 5px;
+}
+
+.balance {
+    display: flex;
+    color: #4D4D4D;
+    align-items: flex-end;
+}
+
+.balance span {
+    color: #8B8B8B;
+    font-size: 26px;
+}
+
+.balance div:first-of-type {
+    font-size: 36px;
+    padding: 0;
+}
+
+.balance div:last-of-type {
+    line-height: 30px;
+}

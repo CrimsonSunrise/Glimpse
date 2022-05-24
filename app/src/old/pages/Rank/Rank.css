@@ -1,0 +1,72 @@
+.rank {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    overflow: hidden
+}
+
+.rank h5 {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 0;
+    color: #444;
+}
+
+.rank-header {
+    display: flex;
+    color: #888;
+    padding-bottom: 10px;
+}
+
+.rank-header-position {
+    padding: 0 15px;
+}
+
+.rank-header-name {
+    flex: 1;
+    padding-left: 7px;
+}
+
+.rank-header-profit {
+    padding-right: 10px;
+}
+
+.rank-items {
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #444;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.rank-item {
+    display: flex;
+    padding: 10px 5px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.rank-item.active {
+    background-color: var(--glimpseIndigo);
+    color: white;
+}
+
+.rank-position {
+    width: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.rank-name {
+    padding-left: 10px;
+    flex: 1
+}
+
+.rank-profit {
+    padding: 0 5px;
+}

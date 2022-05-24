@@ -1,0 +1,56 @@
+.corretora {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.corretoraButtons {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 2px;
+}
+
+.corretoraConnectButton {
+    background-color: white;
+    color: var(--glimpseIndigo);
+	padding: 10px 15px;
+	font-size: 18px;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+}
+
+.corretoraConnectButton * {
+	width: 20px;
+	height: 20px;	
+}
+
+.AccountInfo {
+	margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.accountInfoSection {
+	display: flex;
+	align-items: flex-end;
+}
+
+.aisLabel {
+	color: #C1C1C1;
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.aisLabel span {
+	font-size: 14px;
+}
+
+.aisName, .aisBalance {
+	color: #5C5C5C;
+	font-size: 22px;
+}

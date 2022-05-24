@@ -1,0 +1,175 @@
+.sideMenu {
+	--max-width: 258px;
+}
+
+.sideMenuSideTile {
+    position: absolute;
+    width: 9px;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: var(--glimpseIndigo);
+	z-index: 1;
+}
+
+.menuHeader {
+	position: relative;
+	height: 250px;
+}
+
+.headerGreetings {
+	position: relative;
+	margin-top: 50px;
+}
+
+.ola {
+	position: relative;
+	left: 50px;
+	font-size: 20px;
+	color: #8B8B8B;
+}
+
+.userName {
+	text-align: center;
+	font-size: 26px;
+	color: #5a5a5a;
+	margin: 0 10px;
+}
+
+.headerImage {
+	position: relative;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.userImage {
+	position: relative;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border: 5px solid var(--glimpseIndigo);
+	outline: none;
+	background-color: #EEE;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.userImage img {
+	outline: none;
+	border: none;
+	width: 100%;
+	height: 100%;
+}
+
+.menuButtons {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.menuButton {
+	position: relative;
+	color: #8B8B8B;
+	margin: 8px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 10px 0;
+	text-decoration: none;
+	background-color: transparent;
+}
+
+.menuButton:active .menuButtonLabel {
+	transform: scale(0.9)
+}
+
+.menuButtonBg {
+	position: absolute;
+	background-color: var(--glimpseIndigo);
+	height: 100%;
+	width: auto;
+	left: -100%;
+	top: 0;
+	border-radius: 0 50px 50px 0;
+	pointer-events: none;
+}
+
+.menuButtonLabel {
+	position: relative;
+	padding-left: 30px;
+	font-size: 24px;
+	color: #8B8B8B;
+	background-color: transparent;
+	pointer-events: none;
+}
+
+.menuButton.selected {
+	position: relative;
+	z-index: 2;
+}
+
+.menuButton.selected .menuButtonBg {
+	left: -10px;
+}
+
+.menuButtonTopCover {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	left: 19px;
+	top: -15px;
+	border-bottom-left-radius: 8px;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.menuButtonBottomCover {
+	content: '';
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background-color: white;
+	left: 19px;
+	bottom: -15px;
+	border-top-left-radius: 8px;
+	z-index: 1;
+	pointer-events: none;
+}
+
+.menuButtonTop {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	top: -15px;
+	left: 19px;
+	background-color: var(--glimpseIndigo);
+	pointer-events: none;
+}
+
+.menuButtonBottom {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	bottom: -15px;
+	left: 19px;
+	background-color: var(--glimpseIndigo);
+	pointer-events: none;
+}
+
+.menuButton.selected .menuButtonLabel {
+	color: white;
+}
+
+.logout {
+	position: absolute;
+	font-size: 24px;
+	bottom: 20px;
+	left: 30px;
+	color: #646464;
+}

@@ -1,0 +1,48 @@
+.glimpseComponents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.mainButtons {
+    transition: 0.2s all;
+    position: relative;
+    width: 100%;
+    margin: 20px auto 0;
+    display: flex;
+    flex-flow: wrap;
+    gap: 6px;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.mainButtons.disabled {
+    filter: grayscale(1) opacity(0.3)
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.activesInfo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    flex-shrink: 0;
+    max-height: 290px;
+    overflow-y: auto;
+    padding: 5px 0;
+}
+
+.activeInfo {
+    background-color: white;
+    padding: 10px 10px;
+    display: flex;
+    width: 49%;
+    font-size: 16px;
+    justify-content: space-between;
+    border-radius: 3px;
+    flex-shrink: 0;
+    
+}

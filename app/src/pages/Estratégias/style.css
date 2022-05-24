@@ -1,0 +1,664 @@
+.strategiesWrapper {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+}
+
+.strategiesWrapper .signals-settings {
+    margin-top: 10px;
+}
+
+.strategiesWrapper .signals-settings-button {
+    width: 80%;
+}
+
+.strategyFilters {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    margin: 10px 0;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.strategyFilter {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #a1a1a1;
+}
+
+.strategyFilter * {
+    pointer-events: none;
+}
+
+.strategyFilter.active {
+    background-color: white;
+    color: #4D4D4D;
+}
+
+.strategiesList {
+    transition: 0.2s all;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-flow: wrap;
+    gap: 6px;
+    justify-content: flex-start;
+    width: 100%;
+    overflow: auto;
+    padding: 5px 10px 50px 5px;
+    opacity: 1;
+    pointer-events: all;
+    margin-bottom: 130px;
+}
+
+.strategiesList.contracted {
+    height: 0;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.strategy {
+    position: relative;
+    width: 100%;
+    height: 85px;
+    background-color: white;
+    flex-shrink: 0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+    text-decoration: none !important;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.strategy.active {
+    background-color: var(--glimpseIndigo);
+    color: white;
+}
+
+.strategy-name {
+    position: relative;
+    pointer-events: none;
+}
+
+.strategy-creator {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    font-size: 12px;
+    pointer-events: none;
+}
+
+.strategy-look {
+    transition: 0.2s all;
+    position: absolute;
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.7);
+    right: -100px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.strategy-look * {
+    pointer-events: none;
+}
+
+.strategy.active .strategy-look {
+    right: 10px;
+}
+
+.strategiesListShadow {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 12%;
+    left: 0;
+    background: linear-gradient(rgba(238, 238, 238, 0), #EEE)
+}
+
+.strategies-controls {
+    position: relative;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.strategy-control {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.strategy-control.options {
+    background-color: var(--glimpseIndigo);
+    color: white;
+}
+
+.strategy-creation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    height: 0;
+    overflow-y: auto;
+    background-color: #EEE;
+    padding-bottom: 100px;
+}
+
+.strategy-creation.active {
+    opacity: 1;
+    pointer-events: all;
+    animation: showCreation 0.2;
+    height: 100%;
+    min-height: 100%;
+}
+@keyframes showCreation {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+}
+
+.strategy-creation-name {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.candle-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 5px;
+}
+
+.candle-controls-candlecount {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+    gap: 5px;
+}
+
+.candle-invert {
+    position: relative;
+    justify-self: flex-start;
+    background-color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    flex-shrink: 0;
+    color: #666;
+}
+
+.candle-count {
+    color: #888;
+    margin-right: 10px;
+}
+
+.candle-control {
+    background-color: var(--glimpseIndigo);
+    color: white;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.candle-control * {
+    pointer-events: none;
+}
+
+.candle-control:disabled {
+    background-color: #DDD;
+    color: #888;
+}
+
+.creationChart {
+    background-color: #674cff13;
+    padding: 0;
+    border: 0px;
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+.candlesWrapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1px;
+    background-color: rgba(229, 255, 0, 0);
+}
+
+.decision {
+    position: relative;
+    width: 50px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    pointer-events: none;
+    padding: 0 5px;
+}
+
+.decision-button {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    pointer-events: all;
+    opacity: 0.2;
+}
+
+.decision-button * {
+    pointer-events: none;
+}
+
+.decision-button.active {
+    opacity: 1;
+}
+
+.decision-button.call {
+    background-color: #61C761;
+}
+
+.decision-button.put {
+    background-color: #E45959;
+}
+
+.candle {
+    position: relative;
+    height: 200px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2px;
+    border: 1px solid transparent;
+}
+
+.candle.active {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: white;
+}
+
+.candle div {
+    position: relative;
+    pointer-events: none;
+    background-color: rgb(196, 196, 196);
+    width: 100%;
+    height: 20px;
+    border-radius: 2px;
+}
+
+.candle.red div {
+    background-color: #E45959;
+}
+
+.candle.doji div {
+    background-color: rgb(196, 196, 196);
+}
+
+.candle.green div {
+    background-color: #61C761;
+}
+
+.candle-colors {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    justify-self: center;
+    background-color: white;
+    padding: 10px;
+    margin-top: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-0px)
+}
+
+.candle-colors.active {
+    opacity: 1;
+    pointer-events: all;
+    animation: showCandleColors 0.2s;
+}
+
+@keyframes showCandleColors {
+    0% {
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+}
+
+.candle-color {
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.candle-color.red {
+    background-color: #E45959;
+}
+
+.candle-color.doji {
+    background-color: rgb(196, 196, 196);
+}
+
+.candle-color.green {
+    background-color: #61C761;
+}
+
+.strategy-creation-buttons {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.settings-cancel {
+    position: relative;
+    align-self: flex-end;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--glimpseCrimson);
+    margin-top: 5px;
+}
+
+.settings-test {
+    position: relative;
+    align-self: flex-end;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #0ABDF9;
+    color: white;
+    margin-top: 5px;
+}
+
+.signals-settings-content.creation {
+    width: 100%;
+}
+
+.backdrop {
+    background-color: red !important;
+}
+
+.my-custom-class .popover-content{
+    position: absolute;
+    width: 250px;
+    height: 270px;
+    margin: auto !important;
+    inset: 0 !important;
+    padding: 20px 30px;
+    display: flex;
+}
+
+.my-custom-class .popover-viewport {
+    display: flex;
+    flex: 1;
+}
+
+.test-result {
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.test-result span {
+    font-size: 10px;
+    color: #888;
+}
+
+.result-occurrencies {
+    position: relative;
+    color: #666;
+}
+
+.result-bar {
+    position: relative;
+    width: 90%;
+    background-color: #CCC;
+    border-radius: 20px;
+}
+
+.result-bar-back {
+    width: 100%;
+    margin: auto;
+    height: 10px;position: relative;
+    display: flex;
+}
+
+.r-bar {
+    position: relative;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.r-bar-percent {
+    position: absolute;
+    font-size: 10px;
+    color: #888;
+}
+
+.r-bar-percent.even{
+    transform: translateY(12px)
+}
+
+.r-bar-percent.odd{
+    transform: translateY(-12px)
+}
+
+.win-bar {
+    background-color: #46EADF;
+}
+
+.r-bar.win-bar {
+    border-radius: 20px 0 0 20px;
+}
+
+.first-gale {
+    background-color: #08BDF9;
+}
+
+.second-gale {
+    background-color: #614EFF;
+}
+
+.third-or-loss {
+    background-color: #F0006F;
+}
+
+.r-bar.third-or-loss {
+    border-radius: 0 20px 20px 0;
+}
+
+.result-labels {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 88%;
+    gap: 5px;
+}
+
+.result-label {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.result-color {
+    width: 10px !important;
+    height: 10px !important;
+    flex: 0;
+    color: transparent;
+}
+
+.result-name {
+    color: #888;
+    font-size: 12px;
+}
+
+.detailPopoverClass .popover-wrapper{
+    position: relative;
+    width: 80%;
+    height: 300px;
+}
+
+.detailPopoverClass .popover-content{
+    position: absolute;
+    top: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #EEE;
+}
+
+.strategy-detail {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #666;
+    width: 300px;
+    height: 250px;
+}
+
+.strategy-detail-edit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.strategy-detail-title {
+    font-size: 20px;
+}
+
+.strategy-detail-creator {
+    font-size: 14px;
+    color: #AAA;
+    margin-top: -10px;
+}
+
+.strategy-detail-sequence {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px 0;
+}
+
+.sds {
+    width: 15px;
+    height: 15px;
+    border-radius: 1px;
+}
+
+.sds.green {
+    background-color: #61C761;
+}
+
+.sds.red {
+    background-color: #E45959;
+}
+
+.sds.doji {
+    background-color: #C4C4C4;
+}
+
+.strategy-detail-decision {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.strategy-detail-decision div {
+    width: 15px;
+    height: 15px;
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.strategy-detail-decision div.call {
+    background-color: #61C761;
+}
+
+.strategy-detail-decision div.put {
+    background-color: #E45959;
+}
+
+.strategy-detail-mirror {
+    color: #614EFF;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}

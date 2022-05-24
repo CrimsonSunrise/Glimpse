@@ -178,6 +178,8 @@ The ```serverAssigner.py``` script its responsible for await operating commands 
 
 The ```candleStarter.py``` script iterate inside the folder ```/auxiliar/candles``` and start all the scripts. Each script inside the candles folder start a candle stream of a currency pair and save the data gathered into the database.
 
+In order to work properly, all the 3 auxiliar scripts must be running.
+
 <a name="operational-server-setup"></a>
 ### Operational Server setup
 
@@ -188,3 +190,25 @@ The ```server.py``` script is the main cause it awaits for the user commands, an
 The ```server.py``` also is responsible for place signal orders.
 
 The ```sequenceFinder.py```, as its name suggests, is a script capable of compare the candles provided by the auxiliar scripts and send back an information to the ```server.py``` script to proceed with the orders.
+
+To start your operational server, simply run the ```server.py``` script.
+
+<a name="app-setup"></a>
+### Web and Mobile app setup
+
+The web and mobile app are the main way to send commands and/or view informations about the orders placed as well as results and settings.
+
+The app was made using Ionic framework and you will need to install the Ionic CLI in order to configure or run the app.
+
+To do so, open your command prompt and type ```npm install -g @ionic/cli``` then press enter.
+
+To further understand or know more about Ionic, visit [this page](https://ionicframework.com/docs/).
+
+After installing the Ionic CLI, inside your command prompt, navigate into the app folder located ate ```/app/```. Once there, execute the command ```npm install```. This command will install all the dependencies for the app project.
+
+After running ```npm install``` inside the app folder, if some errors appear, it might be needed to install the types for the Ionic and React. Usually the typos are installed with the framework but if you still have errors type in your command prompt ```npm install @types/ionic @types/react``` and now the errors should be fixed. If the errors persists and you can't find a way to fix it, you're welcome to open an issue in this repository and I'll more than happy to help.
+
+Now, with our packages installed, you can simply run ```ionic serve``` inside the app folder and your development server will start. You can access it visiting ```http://localhost:8100```. You can make further changes in the development server if you wish, to do so, visit the [ionic documentation](https://ionicframework.com/docs/).
+
+For more in depth about the web and mobile app, visit the [app's page](https://github.com/CrimsonSunrise/Glimpse/tree/master/app).
+

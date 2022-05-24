@@ -1,0 +1,81 @@
+.filterAtivos {
+    display: flex;
+    justify-content: flex-end;
+    background-color: transparent;
+    margin: 10px 0;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.filter {
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #a1a1a1;
+}
+
+.filter * {
+    pointer-events: none;
+}
+
+.filter.active {
+    background-color: white;
+    color: #4D4D4D;
+}
+
+.activesWrapper {
+    position: relative;
+    height: 83%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.ActivesList {
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-flow: wrap;
+    gap: 6px;
+    justify-content: space-between;
+    width: 100%;
+    flex: 1;
+    padding: 5px 5px 50px 5px;
+    overflow-y: auto;
+}
+
+.ativo {
+    position: relative;
+    width: 85px;
+    height: 85px;
+    background-color: white;
+    flex-shrink: 0;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none !important;
+    text-align: center;
+}
+
+.ativo div {
+    margin: 5px;
+    pointer-events: none;
+}
+
+.ativo.active {
+    background-color: var(--glimpseIndigo);
+    color: white;
+}
+
+.ativo.invisible {
+    opacity: 0;
+    pointer-events: none;
+}

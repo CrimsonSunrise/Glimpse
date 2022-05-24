@@ -1,0 +1,30 @@
+.glimpseControl {
+    position: relative;
+    width: 100% !important;
+    padding: 20px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+    border-radius: 6px;
+    background-color: var(--glimpseIndigo);
+}
+
+.status {
+    color: white;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+.glimpseButton {
+    background-color: white;
+    color: var(--glimpseIndigo);
+    border-radius: 6px;
+    padding: 10px 15px;
+    font-size: 22px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,282 @@
+body {
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.App {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column
+}
+
+.loader {
+    position: relative;
+    margin: auto;
+}
+
+.resumee.block {
+    position: relative;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.shadowComponent {
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.shadowButton {
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+.pageContent {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EEE;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.glimpseInput {
+    --placeholder-color: red;
+}
+
+.glimpseItem {
+    --border-radius: 6px;
+    margin: 2px 0
+}
+
+.glimpseItem ion-label {
+    color: #666 !important
+}
+
+.menuButton {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 32px;
+}
+
+.menuButton.true {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.menuButton.false {
+    opacity: 1;
+    pointer-events: all;
+}
+
+.menuButton.shadowComponent {
+    background-color: var(--glimpseIndigo);
+    background-image: linear-gradient(340deg, #7D42FE 0%, #614eff 100%);
+    
+}
+
+.menu {
+    transition: 0.2s all;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: var(--glimpseIndigo);
+    padding: 10px 0 100px 0;
+    bottom: -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(340deg, #7D42FE 0%, #614eff 100%);
+    
+}
+
+.menu.active {
+    bottom: 0%;
+}
+
+.menu-item {
+    position: relative;
+    width: 94%;
+    padding: 20px;
+    font-size: 18px;
+    color: #EEE;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-item.active {
+    background-color: white;
+    color: var(--glimpseIndigo);
+}
+
+.menu.active .menu-item:nth-of-type(1) {
+    animation: menuItemBottom 0.2s;
+}
+
+.menu.active .menu-item:nth-of-type(2) {
+    animation: menuItemBottom 0.3s;
+}
+
+.menu.active .menu-item:nth-of-type(3) {
+    animation: menuItemBottom 0.4s;
+}
+
+.menu.active .menu-item:nth-of-type(4) {
+    animation: menuItemBottom 0.5s;
+}
+
+.menu.active .menu-item:nth-of-type(5) {
+    animation: menuItemBottom 0.6s;
+}
+
+@keyframes menuItemBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(100px)
+    }
+}
+
+.backMask {
+    transition: 0.2s all;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    pointer-events: none;
+}
+
+.backMask.active {
+    pointer-events: all;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.logout-buttom {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    right: 3%;
+    bottom: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logout-buttom * {
+    font-size: 18px;
+    opacity: 0.6;
+}
+
+.version {
+    position: absolute;
+    bottom: 30px;
+    width: 120px;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    pointer-events: none;
+}
+
+.version span {
+    color: rgba(255, 255, 255, 0.315);
+}
+
+.version div {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 5px;
+    border-radius: 4px;
+    color: #AAA
+}
+
+.terms {
+    position: absolute;
+    background-color: #EEE;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    pointer-events: none;
+    opacity: 0;
+    user-select: text;
+}
+
+.terms.active {
+    pointer-events: all;
+    opacity: 1;
+}
+
+.terms h1 {
+    padding-left: 20px;
+    color: #444;
+    font-weight: 400;
+}
+
+.terms-content {
+    position: relative;
+    background-color: #FFF;
+    overflow-y: auto;
+    margin: 20px;
+    flex: 1;
+    padding: 20px;
+}
+
+.terms-content p {
+    text-indent: 20px;
+    text-align: justify;
+    font-size: 14px;
+}
+
+.terms-accept {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 20px 20px 0;
+    gap: 10px;
+}
+
+.term-button {
+    transition: 0.2s all;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.term-button:disabled {
+    background-color: #DDD;
+    color: #888;
+    pointer-events: none;
+}
+
+.accept-term {
+    background-color: var(--glimpseIndigo);
+    color: white;
+}
+
+.deny-term {
+    background-color: white;
+    color: #444;
+}

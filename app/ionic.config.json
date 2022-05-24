@@ -1,0 +1,7 @@
+{
+  "name": "GlimpseAppH",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

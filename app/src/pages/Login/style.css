@@ -1,0 +1,110 @@
+.login {
+    transition: 1s all;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #EEE;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.loginLoading {
+    position: absolute;
+    background-color: #EEE;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    position: relative;
+    width: 150px;
+    text-align: center;
+    font-size: 26px;
+    color: var(--glimpseIndigo);
+}
+
+.hero img {
+    width: 90px;
+}
+
+.alpha {
+    position: absolute;
+    right: -15px;
+    top: -15px;
+    font-size: 14px;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+
+.loginContent {
+    transition: 1s all !important;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+    padding: 5px;
+    flex-shrink: 0;
+}
+
+.loginControls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.loginButton {
+    background-color: white;
+    padding: 10px 15px;
+    font-size: 22px;
+    border-radius: 5px;
+    color: var(--glimpseIndigo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.codeContent {
+    transition: 1s all !important;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+    padding: 5px;
+    flex-shrink: 0;
+}
+
+.registerContent {
+    transition: 1s all !important;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+    padding: 5px;
+    flex-shrink: 0;
+}
+
+.registerContent h2 {
+    font-weight: 300;
+    color: var(--glimpseGray);
+    text-align: center;
+}
+
+.codeButton {
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: var(--glimpseGray);
+}
