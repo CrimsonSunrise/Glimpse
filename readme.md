@@ -4,6 +4,8 @@
 
 **Glimpse** is an open source bundle of systems and algorithms that together automate strategies and signals in brokers.
 
+:warning: **Be careful**: Operating with real money its always risky. Use this software for your knowledge and testing only!
+
 > Currently IQ Option is the only broker implemented.
 
 <a href="https://www.buymeacoffee.com/crimsonsunrise" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png"/></a>
@@ -198,17 +200,17 @@ To start your operational server, simply run the ```server.py``` script.
 
 The web and mobile app are the main way to send commands and/or view informations about the orders placed as well as results and settings.
 
-The app was made using Ionic framework and you will need to install the Ionic CLI in order to configure or run the app.
+The app was developed with Ionic framework using React and you will need to install the Ionic CLI in order to configure or run the app.
 
 To do so, open your command prompt and type ```npm install -g @ionic/cli``` then press enter.
 
 To further understand or know more about Ionic, visit [this page](https://ionicframework.com/docs/).
 
-After installing the Ionic CLI, inside your command prompt, navigate into the app folder located ate ```/app/```. Once there, execute the command ```npm install```. This command will install all the dependencies for the app project.
+After installing the Ionic CLI, inside your command prompt, navigate into the app folder located at ```/app/```. Once there, execute the command ```npm install```. This command will install all the dependencies for the app project.
 
-After running ```npm install``` inside the app folder, if some errors appear, it might be needed to install the types for the Ionic and React. Usually the typos are installed with the framework but if you still have errors type in your command prompt ```npm install @types/ionic @types/react``` and now the errors should be fixed. If the errors persists and you can't find a way to fix it, you're welcome to open an issue in this repository and I'll more than happy to help.
+After running ```npm install``` inside the app folder, if some errors appear, it might be needed to install the types for the Ionic and React. Usually the types are installed with the frameworks but if you still have errors type in your command prompt ```npm install @types/ionic @types/react``` and now the errors should be fixed. If the errors persists and you can't find a way to fix it, you're welcome to open an issue in this repository and I'll be more than happy to help.
 
-Now, with our packages installed, you can simply run ```ionic serve``` inside the app folder and your development server will start. You can access it visiting ```http://localhost:8100```. You can make further changes in the development server if you wish, to do so, visit the [ionic documentation](https://ionicframework.com/docs/).
+Now, with our packages installed, you can simply run ```ionic serve``` inside the app folder and your development server will start. You can access it visiting ```http://localhost:8100```. You can make further changes in the development server if you wish, to do so, visit the [ionic documentation](https://ionicframework.com/docs/) to learn how.
 
 For more in depth about the web and mobile app, visit the [app's page](https://github.com/CrimsonSunrise/Glimpse/tree/master/app).
 
