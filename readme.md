@@ -87,7 +87,7 @@ Main method of storing data and information.
 # How it works?
 
 
-All commands and information managed in apps are sent by the API to the database where the operational scripts wait for instructions.
+All commands and information managed in apps are send though the API to the database where the operational scripts wait for instructions.
 
 The auxiliary scripts constantly collect data via the broker's API and store/update this data in the database.
 
