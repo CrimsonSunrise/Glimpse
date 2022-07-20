@@ -212,5 +212,5 @@ After running ```npm install``` inside the app folder, if some errors appear, it
 
 Now, with our packages installed, you can simply run ```ionic serve``` inside the app folder and your development server will start. You can access it visiting ```http://localhost:8100```. You can make further changes in the development server if you wish, to do so, visit the [ionic documentation](https://ionicframework.com/docs/) to learn how.
 
-For more in depth about the web and mobile app, visit the [app's page](https://github.com/CrimsonSunrise/Glimpse/tree/master/app).
+<!-- For more in depth about the web and mobile app, visit the [app's page](https://github.com/CrimsonSunrise/Glimpse/tree/master/app). -->
 

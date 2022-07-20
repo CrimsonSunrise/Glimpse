@@ -1,0 +1,689 @@
+[{
+  "_id": {
+    "$oid": "61eebd1138cbbbaaa3bd6027"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 11:52:01",
+  "time": 1643035921.807914,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eebdc538cbbbaaa3bd6028"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 11:55:00",
+  "time": 1643036101.0086975,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eebeb538cbbbaaa3bd6029"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 11:59:01",
+  "time": 1643036341.9063084,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eebfe138cbbbaaa3bd602a"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:04:01",
+  "time": 1643036641.8053005,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eec09538cbbbaaa3bd602b"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:07:00",
+  "time": 1643036821.0178778,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eec14938cbbbaaa3bd602c"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:10:01",
+  "time": 1643037001.2648957,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eec1fd38cbbbaaa3bd602d"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:13:01",
+  "time": 1643037181.251483,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eec2f638cbbbaaa3bd602e"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:17:10",
+  "time": 1643037430.76576,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eec3de38cbbbaaa3bd602f"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:21:02",
+  "time": 1643037662.123349,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eec54538cbbbaaa3bd6030"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:27:01",
+  "time": 1643038021.979968,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eec5f938cbbbaaa3bd6031"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:30:01",
+  "time": 1643038201.9140215,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eec72538cbbbaaa3bd6032"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:35:01",
+  "time": 1643038501.8310308,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eec81538cbbbaaa3bd6033"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:39:01",
+  "time": 1643038741.4098506,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eec91a38cbbbaaa3bd6034"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:43:22",
+  "time": 1643039002.261455,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eecc9338cbbbaaa3bd6035"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 12:58:11",
+  "time": 1643039891.7829285,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eecd7938cbbbaaa3bd6036"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:02:01",
+  "time": 1643040121.8607664,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eece6938cbbbaaa3bd6037"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:06:01",
+  "time": 1643040361.1546679,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eed00d38cbbbaaa3bd6038"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:13:01",
+  "time": 1643040781.5743506,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eed0fd38cbbbaaa3bd6039"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:17:01",
+  "time": 1643041021.904438,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eed1b138cbbbaaa3bd603a"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:20:00",
+  "time": 1643041201.0099041,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eed26f38cbbbaaa3bd603b"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:23:11",
+  "time": 1643041391.2441716,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eed31938cbbbaaa3bd603c"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:26:00",
+  "time": 1643041561.011491,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eed3cd38cbbbaaa3bd603d"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:29:00",
+  "time": 1643041741.0104742,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eed48138cbbbaaa3bd603e"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:32:00",
+  "time": 1643041921.0112858,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eed53538cbbbaaa3bd603f"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:35:01",
+  "time": 1643042101.6940658,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eed5ec38cbbbaaa3bd6040"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:38:04",
+  "time": 1643042284.1327984,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eed71538cbbbaaa3bd6041"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:43:01",
+  "time": 1643042581.6308358,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eed84138cbbbaaa3bd6042"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:48:01",
+  "time": 1643042881.951253,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eed93138cbbbaaa3bd6043"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:52:00",
+  "time": 1643043121.011046,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eed9e538cbbbaaa3bd6044"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:55:01",
+  "time": 1643043301.6470778,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eedaa638cbbbaaa3bd6045"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 13:58:14",
+  "time": 1643043494.4268796,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eedb9f38cbbbaaa3bd6046"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:02:23",
+  "time": 1643043743.829994,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eedd2d38cbbbaaa3bd6047"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:09:00",
+  "time": 1643044141.0167272,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eedde138cbbbaaa3bd6048"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:12:00",
+  "time": 1643044321.012764,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eede9538cbbbaaa3bd6049"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:15:00",
+  "time": 1643044501.0139375,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eedf8538cbbbaaa3bd604a"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:19:00",
+  "time": 1643044741.0110192,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eee03938cbbbaaa3bd604b"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:22:01",
+  "time": 1643044921.3102834,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eee0ed38cbbbaaa3bd604c"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:25:00",
+  "time": 1643045101.0122085,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eee1a138cbbbaaa3bd604d"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:28:00",
+  "time": 1643045281.0113394,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eee2cd38cbbbaaa3bd604e"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:33:01",
+  "time": 1643045581.9258409,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eee43538cbbbaaa3bd604f"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:39:01",
+  "time": 1643045941.173565,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eee61538cbbbaaa3bd6050"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:47:01",
+  "time": 1643046421.7289867,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eee7f538cbbbaaa3bd6051"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:55:00",
+  "time": 1643046901.0173137,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eee8a938cbbbaaa3bd6052"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 14:58:01",
+  "time": 1643047081.1868777,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eee9a438cbbbaaa3bd6053"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:02:12",
+  "time": 1643047332.6667151,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eeea4d38cbbbaaa3bd6054"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:05:00",
+  "time": 1643047501.008007,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eeeb3d38cbbbaaa3bd6055"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:09:01",
+  "time": 1643047741.6468742,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eeec6d38cbbbaaa3bd6056"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:14:05",
+  "time": 1643048045.3958964,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eeed1d38cbbbaaa3bd6057"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:17:00",
+  "time": 1643048221.013889,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eeee0d38cbbbaaa3bd6058"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:21:00",
+  "time": 1643048461.0120223,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eeef4638cbbbaaa3bd6059"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:26:14",
+  "time": 1643048774.8701632,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eef06538cbbbaaa3bd605a"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:31:00",
+  "time": 1643049061.015132,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eef15538cbbbaaa3bd605b"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:35:00",
+  "time": 1643049301.01083,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eef24538cbbbaaa3bd605c"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:39:00",
+  "time": 1643049541.0158775,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eef42538cbbbaaa3bd605d"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:47:00",
+  "time": 1643050021.0191655,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eef67d38cbbbaaa3bd605e"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 15:57:00",
+  "time": 1643050621.0079687,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eef77d38cbbbaaa3bd605f"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:01:17",
+  "time": 1643050877.855732,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eef89938cbbbaaa3bd6060"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:06:00",
+  "time": 1643051161.012215,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eef98938cbbbaaa3bd6061"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:10:00",
+  "time": 1643051401.0094707,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eefb2d38cbbbaaa3bd6062"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:17:00",
+  "time": 1643051821.012653,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61eefc5c38cbbbaaa3bd6063"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:22:04",
+  "time": 1643052124.7951448,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eefd4e38cbbbaaa3bd6064"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:26:06",
+  "time": 1643052366.8193572,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eefe3938cbbbaaa3bd6065"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:30:00",
+  "time": 1643052601.011276,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61eeff6538cbbbaaa3bd6066"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:35:01",
+  "time": 1643052901.0143833,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef001938cbbbaaa3bd6067"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:38:00",
+  "time": 1643053081.0102282,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef019238cbbbaaa3bd6068"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:44:18",
+  "time": 1643053458.7867198,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef02af38cbbbaaa3bd6069"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:49:03",
+  "time": 1643053743.774784,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef037238cbbbaaa3bd606a"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:52:18",
+  "time": 1643053938.753347,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef048d38cbbbaaa3bd606b"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 16:57:00",
+  "time": 1643054221.012124,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef054f38cbbbaaa3bd606c"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:00:15",
+  "time": 1643054415.0197988,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef063138cbbbaaa3bd606d"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:04:00",
+  "time": 1643054641.0157628,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef072138cbbbaaa3bd606e"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:08:01",
+  "time": 1643054881.4964375,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef08c538cbbbaaa3bd606f"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:15:01",
+  "time": 1643055301.6073837,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef09b538cbbbaaa3bd6070"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:19:00",
+  "time": 1643055541.0150917,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef0a6938cbbbaaa3bd6071"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:22:00",
+  "time": 1643055721.0127404,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef0b1d38cbbbaaa3bd6072"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:25:01",
+  "time": 1643055901.06176,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef0bd138cbbbaaa3bd6073"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:28:00",
+  "time": 1643056081.0136912,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef0c9838cbbbaaa3bd6074"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:31:20",
+  "time": 1643056280.6764746,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef0d8a38cbbbaaa3bd6075"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:35:22",
+  "time": 1643056522.839315,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef0e2938cbbbaaa3bd6076"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:38:01",
+  "time": 1643056681.299106,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef0f1938cbbbaaa3bd6077"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:42:01",
+  "time": 1643056921.4482427,
+  "operacao": "PUT"
+},{
+  "_id": {
+    "$oid": "61ef0fcd38cbbbaaa3bd6078"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:45:00",
+  "time": 1643057101.0118203,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef108138cbbbaaa3bd6079"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:48:01",
+  "time": 1643057281.6406534,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef113538cbbbaaa3bd607a"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:51:00",
+  "time": 1643057461.014777,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef11e938cbbbaaa3bd607b"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:54:00",
+  "time": 1643057641.0133646,
+  "operacao": "CALL"
+},{
+  "_id": {
+    "$oid": "61ef12f338cbbbaaa3bd607c"
+  },
+  "ativo": "EURUSD",
+  "horario": "2022-01-24 17:58:27",
+  "time": 1643057907.6637778,
+  "operacao": "PUT"
+}]

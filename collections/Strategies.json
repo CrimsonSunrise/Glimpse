@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "61b77373e8bcccadf6255954"
+  },
+  "name": "Glimpse Baixo Risco",
+  "createdBy": "Glimpse",
+  "sequence": "-1,-1,-1,-1,-1,-1,-1,-1,-1",
+  "operation": "call",
+  "mirror": true
+}]

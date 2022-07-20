@@ -1,0 +1,10 @@
+[{
+  "_id": {
+    "$oid": "6202e853b206a207bf508361"
+  },
+  "name": "glimpse_01",
+  "status": "waiting",
+  "target": "",
+  "uptime": 1644357906.0595262,
+  "preferential": false
+}]

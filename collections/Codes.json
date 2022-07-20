@@ -1,0 +1,97 @@
+[{
+  "_id": {
+    "$oid": "613acf303d02c1dca4045c92"
+  },
+  "code": "Bz4Y2TYxXook",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": 0
+},{
+  "_id": {
+    "$oid": "613ad26a6f4b393868596298"
+  },
+  "code": "tUjS1yUNDOzm",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26a6f4b393868596299"
+  },
+  "code": "tO1qo7M7lmUm",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26a6f4b39386859629a"
+  },
+  "code": "MStgDjbaHjI4",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26a6f4b39386859629b"
+  },
+  "code": "JeQaI9UOoXTl",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26a6f4b39386859629c"
+  },
+  "code": "DZKzf6K7L0eu",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26a6f4b39386859629d"
+  },
+  "code": "lanMUAFPLG5C",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26b6f4b39386859629e"
+  },
+  "code": "4XHfZJZx1ofK",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26b6f4b39386859629f"
+  },
+  "code": "n9vBfCUmwbQD",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26b6f4b3938685962a0"
+  },
+  "code": "M7Bm6P8ygoi4",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26b6f4b3938685962a1"
+  },
+  "code": "2W6GTbBlweD4",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+},{
+  "_id": {
+    "$oid": "613ad26b6f4b3938685962a2"
+  },
+  "code": "Py84ZWRnbIk7",
+  "valid": true,
+  "usedBy": "",
+  "usedWhen": ""
+}]

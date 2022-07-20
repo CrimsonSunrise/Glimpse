@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "6132788312e64a6ab344de25"
+  },
+  "ativo": "EURCHF",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788312e64a6ab344de29"
+  },
+  "ativo": "CADCHF",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788312e64a6ab344de2a"
+  },
+  "ativo": "EURNZD",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788312e64a6ab344de2c"
+  },
+  "ativo": "GBPNZD",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788312e64a6ab344de2f"
+  },
+  "ativo": "EURUSD",
+  "open": "True",
+  "payout": "91"
+},{
+  "_id": {
+    "$oid": "6132788312e64a6ab344de31"
+  },
+  "ativo": "USDCAD",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788312e64a6ab344de33"
+  },
+  "ativo": "EURGBP",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788312e64a6ab344de34"
+  },
+  "ativo": "USDJPY",
+  "open": "True",
+  "payout": "91"
+},{
+  "_id": {
+    "$oid": "6132788312e64a6ab344de35"
+  },
+  "ativo": "AUDCAD",
+  "open": "True",
+  "payout": "91"
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de36"
+  },
+  "ativo": "GBPJPY",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de37"
+  },
+  "ativo": "USDCHF",
+  "open": "True",
+  "payout": "91"
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de39"
+  },
+  "ativo": "GBPCHF",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de3a"
+  },
+  "ativo": "GBPAUD",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de3b"
+  },
+  "ativo": "AUDUSD",
+  "open": "True",
+  "payout": "91"
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de3c"
+  },
+  "ativo": "GBPCAD",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de3d"
+  },
+  "ativo": "CHFJPY",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de3e"
+  },
+  "ativo": "EURJPY",
+  "open": "True",
+  "payout": "91"
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de3f"
+  },
+  "ativo": "NZDUSD",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de40"
+  },
+  "ativo": "EURCAD",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "6132788412e64a6ab344de41"
+  },
+  "ativo": "GBPUSD",
+  "open": "True",
+  "payout": "91"
+},{
+  "_id": {
+    "$oid": "615c2c3a3a646baa65aade7b"
+  },
+  "ativo": "EURAUD",
+  "open": "False",
+  "payout": 0
+},{
+  "_id": {
+    "$oid": "615c2c453a646baa65aade7c"
+  },
+  "ativo": "AUDJPY",
+  "open": "True",
+  "payout": "91"
+},{
+  "_id": {
+    "$oid": "615c2c513a646baa65aade7d"
+  },
+  "ativo": "CADJPY",
+  "open": "False",
+  "payout": 0
+}]

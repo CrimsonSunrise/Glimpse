@@ -1,0 +1,129 @@
+[{
+  "name": "",
+  "email": "",
+  "password": "",
+  "phone": "",
+  "cpf": "",
+  "image": "https://icon-library.com/images/user-icon-free/user-icon-free-8.jpg",
+  "iqEmail": "joaoalan15@hotmail.com",
+  "iqPassword": "Tret@lok@150491",
+  "iqBalanceReal": "",
+  "iqBalancePractice": "",
+  "iqAccountType": "treinamento",
+  "iqPeriodProfit": 0,
+  "iqSessionProfit": 0,
+  "glimpseStatus": "off",
+  "firstAccess": "",
+  "premiumDays": 9999,
+  "strategy": "Glimpse Baixo Risco",
+  "ownedStrategies": [
+    "Glimpse Baixo Risco"
+  ],
+  "preferedPayout": "> 85",
+  "preferedActives": "todos",
+  "lastLogin": {
+    "time": "1/17/2022, 10:03:18 AM",
+    "ip": "168.195.247.165",
+    "location": "Santana do Ipanema, State of Alagoas, Brazil"
+  },
+  "iqPeriodLoss": 0,
+  "alerts": [],
+  "mode": "strategy",
+  "signalSettings": {
+    "money": 2,
+    "gale": false,
+    "galeCount": 1,
+    "galeType": "sobra",
+    "sobra": 1,
+    "stopLoss": false,
+    "stopLossValue": 20,
+    "stopWin": false,
+    "stopWinValue": 500
+  },
+  "type": "user",
+  "strategySettings": {
+    "money": 2,
+    "gale": false,
+    "galeCount": 1,
+    "galeType": "sobra",
+    "sobra": 1,
+    "stopLoss": false,
+    "stopLossValue": 20,
+    "stopWin": false,
+    "stopWinValue": 500
+  },
+  "operating": {
+    "operating": false,
+    "active": "",
+    "money": 0,
+    "operacao": "",
+    "tries": []
+  },
+  "settings": {
+    "alerts": {
+      "useAlerts": true,
+      "glimpseStart": true,
+      "glimpseStop": true,
+      "activeClose": true,
+      "stopLossReached": true,
+      "stopWinReached": true
+    },
+    "glimpse": {
+      "slides": true,
+      "operationPriority": "gale"
+    }
+  },
+  "passwordRecoverCode": "",
+  "readTerms": true,
+  "sessionOperations": [
+    {
+      "d": 1643056740,
+      "v": 0.10721913752457146
+    },
+    {
+      "d": 1643056800,
+      "v": 0.1863968146874594
+    },
+    {
+      "d": 1643056860,
+      "v": 0.0389929868193315
+    },
+    {
+      "d": 1643056920,
+      "v": 0.6519887443132285
+    },
+    {
+      "d": 1643056980,
+      "v": 0.7372761354233133
+    },
+    {
+      "d": 1643057040,
+      "v": 0.3366337448674669
+    },
+    {
+      "d": 1643057100,
+      "v": 0.8113453663255835
+    },
+    {
+      "d": 1643057160,
+      "v": 0.014342900250729818
+    },
+    {
+      "d": 1643057220,
+      "v": 0.11713889944433231
+    },
+    {
+      "d": 1643057280,
+      "v": 0.1611735325657817
+    },
+    {
+      "d": "1643057340",
+      "v": 0.57
+    }
+  ],
+  "entrada": {
+    "money": 2,
+    "tipo": "treinamento",
+    "moeda": "real"
+  }
+}]
