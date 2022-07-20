@@ -164,6 +164,8 @@ Inside the folder ```API``` is located the ```routes.py``` and ```actions.py```,
 
 Run the file ```routes.py``` and our API should now be working.
 
+Keep in mind that some other scripts and files would want to connect to your API like [app connection file](https://github.com/CrimsonSunrise/Glimpse/blob/master/app/src/connection.js), [operational server](https://github.com/CrimsonSunrise/Glimpse/blob/master/operational/server.py), as well as the [auxiliar](https://github.com/CrimsonSunrise/Glimpse/tree/master/auxiliar) and [candles scripts](https://github.com/CrimsonSunrise/Glimpse/tree/master/auxiliar/candles), so you have to set your API's IP Address on that files for it to work.
+
 <a name="auxiliar-scripts-setup"></a>
 ### Auxiliar Scripts setup
 
