@@ -6,7 +6,7 @@
 
 :warning: **Be careful**: Operating with real money its always risky. Use this software for your knowledge and testing only!
 
-> Currently IQ Option is the only broker implemented.
+> Currently IQ Option is the only broker implemented. You can check the API in [this link](https://iqoptionapi.github.io/iqoptionapi/en/).
 
 <a href="https://www.buymeacoffee.com/crimsonsunrise" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png"/></a>
 
