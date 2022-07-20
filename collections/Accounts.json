@@ -5,8 +5,8 @@
   "phone": "",
   "cpf": "",
   "image": "https://icon-library.com/images/user-icon-free/user-icon-free-8.jpg",
-  "iqEmail": "joaoalan15@hotmail.com",
-  "iqPassword": "Tret@lok@150491",
+  "iqEmail": "",
+  "iqPassword": "",
   "iqBalanceReal": "",
   "iqBalancePractice": "",
   "iqAccountType": "treinamento",
@@ -22,9 +22,9 @@
   "preferedPayout": "> 85",
   "preferedActives": "todos",
   "lastLogin": {
-    "time": "1/17/2022, 10:03:18 AM",
-    "ip": "168.195.247.165",
-    "location": "Santana do Ipanema, State of Alagoas, Brazil"
+    "time": "",
+    "ip": "",
+    "location": ""
   },
   "iqPeriodLoss": 0,
   "alerts": [],
