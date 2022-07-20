@@ -140,7 +140,8 @@ In order to run the **Glimpse** bundle you need to download and install the foll
     * Strategies
 5. After creating all the needed collections you will need to import the base data into every collection. For this step, select a collection, click on the green button **ADD DATA**, click on **Import File**, **Select a file...** and navigate to the folder **Collections** inside the project, select the corresponding file name for the collection you've selected and then click **Open**. After click on the green button **IMPORT**.
 6. Do the same thing for all the collections. Be cautious to not import twice.
-7. After importing all the collection files we're done with the database and you can proceed to the next step.
+7. You will notice that there's some default data inside the Account collection that we've just imported. You can change the "email" and "password" fields to access the app later on. Note that this procedure is not needed after the account creation process.
+8. After importing all the collection files we're done with the database and you can proceed to the next step.
 
 <a name="api-setup"></a>
 ### API Setup

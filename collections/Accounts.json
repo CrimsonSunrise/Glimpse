@@ -1,7 +1,7 @@
 [{
   "name": "",
-  "email": "",
-  "password": "",
+  "email": "test@test.com",
+  "password": "password123",
   "phone": "",
   "cpf": "",
   "image": "https://icon-library.com/images/user-icon-free/user-icon-free-8.jpg",
